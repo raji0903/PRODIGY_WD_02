@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+  <div class="container">
+    <div class="mode-toggle">
+      <button id="modeSwitch">🌞</button>
+    </div>
+    <h1>⏱️ My Stylish Stopwatch</h1>
+    <div id="display">00:00:00.000</div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+      <button id="lap">Lap</button>
+      <p class="creator">Created by Rajalakshmi S 💻</p>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+
+  <!-- Sound -->
+  <audio id="lapSound" src="https://actions.google.com/sounds/v1/cartoon/pop.ogg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
